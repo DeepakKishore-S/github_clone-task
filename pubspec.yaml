@@ -1,0 +1,48 @@
+name: github_clone
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  bloc: ^8.1.2
+  flutter_bloc: ^8.1.3
+  flutter_hooks: ^0.18.6
+  firebase_core: ^2.13.1
+  flutter_screenutil: ^5.7.0
+  http: ^0.13.6
+  firebase_auth: ^4.6.2
+  equatable: ^2.0.5
+  google_fonts: ^4.0.4
+  intl: ^0.18.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter/Inter-Regular.ttf
+        - asset: assets/fonts/Inter/Inter-Medium.ttf
+          weight: 500
+
